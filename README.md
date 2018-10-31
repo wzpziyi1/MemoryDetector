@@ -435,4 +435,4 @@ NSTimer\CADisplayLink中对target和CAAnimation中对delegate都是strong引用�
 
 ### 公众号，欢迎关注：
 
-![6](/Users/wzp/Desktop/MemoryDetector/6.jpg)
+![6](./6.jpg)

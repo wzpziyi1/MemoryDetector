@@ -44,8 +44,6 @@ OOM与Crash表现一致，虽然无法被Crash系统捕获，但总的来说App�
 > 2. 排除Debug状态的信息收集，避免误判
 > 3. 分FOOM和BOOM两种状态进行信息收集，FOOM是必须要进行处理降低的，BOOM需要检查代码中可以优化的地方从而降低内存
 
-具体代码可以看手Y的YYOutOfMemoryStatistics类。
-
 对应的github上的一个OOM上报代码：[MemoryNoodler](https://github.com/jflinter/JRFMemoryNoodler)   	
 
 Github上的OOM是会有比较多的误报，也没有继续进行细分，是需要继续优化的。
